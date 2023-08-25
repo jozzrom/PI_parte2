@@ -203,84 +203,17 @@ Después de realizar el análisis exploratorio de los datos, se llegan a las sig
 
 # **`Análisis Histórico de los Datos`**
 
+En resumen, todas las monedas experimentaron un aumento en sus precios y volúmenes de transacción en 2021, seguido de una disminución en la variabilidad de los precios y una estabilización de los precios en general. Render se destacó por su consistente alta capitalización de mercado y crecimiento continuo en volumen de transacción. Singularitynet también experimentó un aumento significativo en el volumen de transacción, lo que sugiere un mayor interés de los inversores y la posibilidad de eventos importantes relacionados con la moneda.
+
+En el pdf anexado *`"P2_Cripto_analisis.pdf"`*al repositorio se encuentra una explicación más detallada de la conclusión anterior.
+
 ***Outliers***
 
-Los outliers encontrados corresponden a los picos en el análisis histórico de precios por lo que se conservan dentro del análisis. 
-
-
-***Precio***	
-
-* El precio promedio anual más alto lo tiene lo tiene Numeraire.
-* El precio promedio anual más bajo lo tiene lo tiene Insure y Everipedia.
-* Todas las monedas aumentaron su precio promedio en 2021, sin embargo, después de ese pico casi todas bajaron su precio promedio excepto Render, el cual incluso ha aumentado.
-* El precio mínimo más bajo lo tiene Everipedia e Insure
-* Todas las monedas aumentaron su precio mínimo en 2021.
-* Numeraire es la monena que posee el precio mínimo más alto
-La variabilidad en las monedas ha permanecido casi estable para todas a través del tiempo. Sin embargo, todas poseen un pico en el año 2021, lo cual se relaciona con el aumento en el precio de todas las monedas.La moneda con mayor desviación estandar pertenece a Numeraire. Después de ese pico en 2021, la variabilidad ha ido decreciendo lo que significa que el precio se ha ido estabilizando, es decir ha ido disminuyendo la variación de este. 
-* El precio máximo más bajo lo tiene Singularitynet e Insure
-* Todas las monedas aumentaron su precio máximo en 2021 y posterior a ese pico, el precio máximo de todas las monedas disminuyó.
-* Numeraire es la monena que posee el precio máximo más alto
-
-***Marketcap***	
-
-+ El token que tienen una capitalización de mercado consistentemente alta en comparación con otros es Render. En el año 2022 Render supera a los demás tokens en términos de capitalización, significa que el valor total de ese token en circulación es significativamente mayor y más estable en el tiempo en comparación con los valores de capitalización de mercado de los demás. 
-+ Todas las monedas (Excepto Render) poseen el pico más alto en el año 2021 y después decaen con respecto al número de unidades en circulación. 
-
-***Volumen de transacción***	
-
-+ En el año 2021, todas las monedas presentan un aumento en el promedio anual de volumen de transacción. Sin embargo, sólo Render siguió creciendo continuamente. Las demás monedas presentan un descenso en dicho volumen para 2022. 
-
-+ La única moneda que presentó un aumento significativo en su volumen de un año a otro (en este caso 2022-20223) es Singularitynet. Superando a todas las demás monedas.Un aumento repentino en el volumen puede ser un indicativo de que algo importante está ocurriendo con respecto a esa criptomoneda. Si nos fijamos en el precio de Singularitynet vemos que de 2022 a 2023 aumentó lo que podría sugerir que los inversores están comprando.
-
-***KPI: Retorno de inversión (ROI)***
-
-El ROi se calcula en el supuesto de haber comprado de cualquiera de las monedas, un único token, al inicio de su ciclo de vida, es decir en el año 2018.
-+ Las únicas monedas que presentan un retorno de inversión positivio son: Render, Ocean y Akash 
-+ La moneda que posee el retorno de inversión más alto es Render. 
-+ La moneda que posee el retorno de inversión más bajo es Insure. 
-
-
-***KPI: Crecimiento de Capitalización/Mercado/Market Cap***
-
-
-+ Las monedas que presentan un crecimiento negativo en la capitalización de mercado son: insure y fetch_ai. 
-+ La moneda que presenta el mayor crecimiento en la capitalización de mercado es Render con un valor de 96562.644159.
-
-
-En resumen, todas las monedas experimentaron un aumento en sus precios y volúmenes de transacción en 2021, seguido de una disminución en la variabilidad de los precios y una estabilización de los precios en general. Render se destacó por su consistente alta capitalización de mercado y crecimiento continuo en volumen de transacción. Singularitynet también experimentó un aumento significativo en el volumen de transacción, lo que sugiere un mayor interés de los inversores y la posibilidad de eventos importantes relacionados con la moneda.
+Los outliers encontrados corresponden a los picos en el análisis histórico de precios por lo que se conservan dentro del análisis.
 
 # **`Análisis Actual de los Datos`**
 
-***Rendimiento de diferentes tokens en términos de precio***
-
-
-+ El token que poseen el precio más alto es Numeraire
-+ El token que posee el precio más bajo es INSURE
-
- ***KPI: Cambio diario de precio y su porcentaje***  
-
-
-+ El token que presenta el porcentaje de cambio de precio más alto en las últimas 24 h, el día 23 de agosto del 2023 es para el token Insure. Un alto cambio diario de precio podría indicar una mayor posibilidad de ganancias, pero también un mayor riesgo de pérdidas.
-+ El token que presenta el porcentaje de cambio más bajo en las últimas 24 h, el día 23 de agosto del 2023 es para el token Numerarire
-
-
-***KPI: Porcentaje de suministro circulante***
-
-
-+ Las monedas cuyo suministro total está en circulación son: IQ,Akash. Si todos los tokens están en circulación, podría haber una percepción de escasez entre los inversores.
-
-+ Las monedas cuyo porcentaje circulante es menor al total son: inSure DeFi (30.072482) y Ocean Protoco (30.782045)
-
-+ Para el token Akash , se puede apreciar que el suministro circulante es mayor al suministro total pero menor al suministro_max. Esto podría indicar una estrategia de liberación gradual de tokens, un enfoque en la escasez percibida y un equilibrio entre el control del equipo y la influencia del mercado.
-
-***KPI: Liquidez o relación Volumen-Capitalización***
-
-
-+ Los activos "SingularityNET" y "Fetch.ai" tienen relaciones altas (0.13). Esto sugiere que hay un alto nivel de actividad de compra y venta en el mercado para ese activo, es decir, los inversores pueden comprar o vender grandes cantidades de ese activo sin afectar significativamente su precio.
-
-+ Por otro lado, "inSure DeFi" tiene una relación baja (0.002808), esto podría sugerir que hay menos transacciones ocurriendo en el mercado, lo que podría dificultar la ejecución de operaciones grandes sin afectar el precio. En un mercado con baja liquidez, incluso operaciones relativamente pequeñas pueden tener un impacto más significativo en el precio.
-
-+ El activo "Render" tiene una relación intermedia (alrededor de 0.05), lo que indica una actividad de negociación moderada en relación con su capitalización de mercado.
- 
 
  En resumen, el análisis de diversos tokens en términos de precio y rendimiento, se destaca  Numeraire que tiene el precio más alto y INSURE el más bajo. El cambio diario de precio en 23 de agosto de 2023, INSURE experimentó el mayor cambio en las últimas 24 horas. IQ y Akash tienen todo su suministro en circulación, creando una sensación de escasez, mientras que inSure DeFi y Ocean Protocol tienen menos en circulación. Akash muestra un suministro circulante estratégico. En términos de liquidez, SingularityNET y Fetch.ai tienen actividad alta, inSure DeFi baja, y Render está en el medio.
+
+ En el pdf anexado *`"P2_Cripto_analisis.pdf"`*al repositorio se encuentra una explicación más detallada de la conclusión anterior.
