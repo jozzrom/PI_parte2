@@ -45,7 +45,7 @@ Se seleccionan 10 de las criptomonedas más reconocidas por su innovación tecno
 + 9.	IQ (IQ)
 + 10.	Numeraire (NMR)
 
-En el pdf anexo al github encontrarás más información sobre los casos de uso relacionados con estas criptomonedas. 
+En el pdf anexo *"P2_Cripto_analisis.pdf"* al github encontrarás más información sobre los casos de uso relacionados con estas criptomonedas. 
 
 # **` 1.1.1.- Extracción de datos Históricos con API CoinGecko `**
 
