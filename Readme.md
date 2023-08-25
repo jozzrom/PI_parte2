@@ -205,7 +205,7 @@ Después de realizar el análisis exploratorio de los datos, se llegan a las sig
 
 ***Outliers***
 
-Los outliers encontrados corresponden a los picos en el análisilis histórico de precios por lo que no se conservan en el análisis. 
+Los outliers encontrados corresponden a los picos en el análisis histórico de precios por lo que se conservan dentro del análisis. 
 
 
 ***Precio***	
