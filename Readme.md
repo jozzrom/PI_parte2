@@ -203,6 +203,11 @@ Después de realizar el análisis exploratorio de los datos, se llegan a las sig
 
 # **`Análisis Histórico de los Datos`**
 
+***Outliers***
+
+Los outliers encontrados corresponden a los picos en el análisilis histórico de precios por lo que no se conservan en el análisis. 
+
+
 ***Precio***	
 
 * El precio promedio anual más alto lo tiene lo tiene Numeraire.
