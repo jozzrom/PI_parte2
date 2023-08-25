@@ -86,7 +86,7 @@ Se utiliza la función *`"get_coins_markets()"`* para obtener datos recientes de
 +	Se especifica el precio en USD
 +	Se especifica la lista de monedas que contienen los id de cada una. 
 
-Una vez hecha la extracción de datos, se obtiene el csv: *`"coin_markets_df"`* con la siguiente información, la cual se especifica a detalle en el pdf anexo.
+Una vez hecha la extracción de datos, se obtiene el csv: *`"coin_markets_df"`* con la siguiente información, la cual se especifica a detalle en el pdf *"P2_Cripto_analisis.pdf"*.
 
 +	id
 +	symbol
