@@ -45,7 +45,7 @@ Se seleccionan 10 de las criptomonedas más reconocidas por su innovación tecno
 + 9.	IQ (IQ)
 + 10.	Numeraire (NMR)
 
-En el pdf anexo *"P2_Cripto_analisis.pdf"* al github encontrarás más información sobre los casos de uso relacionados con estas criptomonedas. 
+En el pdf anexo *`"P2_Cripto_analisis.pdf"`* al repositorio encontrarás más información sobre los casos de uso relacionados con estas criptomonedas. 
 
 # **` 1.1.1.- Extracción de datos Históricos con API CoinGecko `**
 
@@ -86,7 +86,7 @@ Se utiliza la función *`"get_coins_markets()"`* para obtener datos recientes de
 +	Se especifica el precio en USD
 +	Se especifica la lista de monedas que contienen los id de cada una. 
 
-Una vez hecha la extracción de datos, se obtiene el csv: *`"coin_markets_df"`* con la siguiente información, la cual se especifica a detalle en el pdf *"P2_Cripto_analisis.pdf"*.
+Una vez hecha la extracción de datos, se obtiene el csv: *`"coin_markets_df"`* con la siguiente información, la cual se especifica a detalle en el pdf *`"P2_Cripto_analisis.pdf"`*.
 
 +	id
 +	symbol
@@ -156,7 +156,7 @@ Se crea una función para calcular el ROI (Retorno de la Inversión) de todas la
 ***KPI: Crecimiento de Capitalización/Mercado/Market Cap***
 
 
-Es una métrica utilizada en el análisis de criptomonedas para evaluar cómo ha evolucionado el valor total de mercado de una criptomoneda o del mercado en su conjunto a lo largo del tiempo. Al comparar el crecimiento de la capitalización de una criptomoneda en particular con otras criptomonedas o con el mercado en general, es posible evaluar qué activos digitales están ganando tracción y cuáles están rezagados en términos de adopción y demanda
+Este KPI evalua cómo ha evolucionado el valor total de mercado de una criptomoneda o del mercado en su conjunto a lo largo del tiempo. Al comparar el crecimiento de la capitalización de una criptomoneda en particular con otras criptomonedas o con el mercado en general, es posible evaluar qué activos digitales están ganando tracción y cuáles están rezagados en términos de adopción y demanda
 
 Muestra tanto los valores absolutos iniciales y finales de la capitalización de mercado como el porcentaje de crecimiento correspondiente para cada token.
 + 1.- Se busca el valor inicial correspondiente a la columna market_cap , es decir el primer volumen histórico registrado.
@@ -176,7 +176,9 @@ Se inicia con el análisis histórico de los datos, el cual se encuentra ubicado
 Se compara el precio (USD) de todas las monedas. Lo anterior puede indicar 2 cosas, la primera identificar cuáles de los tokens muestran un mejor rendimiento en comparación con los demás, y la segunda indicar tokens que están recibiendo un mayor interés o demanda en ese día.
 
 
- ***KPI: Cambio diario de precio y su porcentaje***  
+ ***KPI: Cambio diario de precio y su porcentaje*** 
+
+ Calcular el cambio diario de precio y su porcentaje permite comprender que tan volátil es una criptomoneda. Las criptomonedas son conocidas por su alta volatilidad, lo que puede presentar oportunidades de ganancias, pero también riesgos significativos.  
 
 + 1.- Se calcula el cambio de precio absoluto, es decir la resta del precio actual y el precio más bajo registrado en 24h.
 + 2.- Se calcula el cambio porcentual, es decir el cambio de precio absoluto dividido por wl precio más bajo registrado en 24 h
@@ -186,9 +188,13 @@ Se compara el precio (USD) de todas las monedas. Lo anterior puede indicar 2 cos
 
 ***KPI: Porcentaje de suministro circulante***
 
+Este KPI ofrece información sobre cuántas monedas están en manos de inversores, usuarios y participantes en comparación con el suministro total existente.
+
 Se calcula una nueva columna que indica el porcentaje de suministro circulante con respecto al suministro total, es decir, el porcentaje de monedas que actualmente están en el mercado. 
 
-***KPI: Liquidez o relación Volumen-Capitalización***
+***KPI: Relación Volumen-Capitalización***
+
+Este KPI proporcionan información sobre la actividad comercial y la demanda de la criptomoneda en cuestión.Esta relación puede indicar cómo de activo es el mercado de una criptomoneda en comparación con su tamaño total. Si el volumen de transacciones es bajo en relación con la capitalización de mercado, podría sugerir que la criptomoneda es menos negociada y podría ser más susceptible a la manipulación de precios.
 
 + 1.- Se calcula la capitalización de mercado, es decir el precio total del suministro circulante
 + 2.- Se calcula la relación entre el volumen y la capitalización del mercado. Se guarda en la columna relacion_volumen_capitalizacion['relacion_vol_mc']
